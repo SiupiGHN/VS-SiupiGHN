@@ -139,6 +139,25 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
+
+				case 'siupi':
+				// HEY, SOU EU, SIUPITY
+				tex = Paths.getSparrowAtlas('characters/Siupi', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'Siupi idle dance', 24);
+				animation.addByPrefix('singUP', 'Siupi Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'Siupi Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'Siupi Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'Siupi Sing Note LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 10, 19);
+				addOffset("singRIGHT",-54, -20);
+				addOffset("singLEFT", 36, -9);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
+				
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
 				frames = tex;
