@@ -142,7 +142,7 @@ class Character extends FlxSprite
             
 			case 'siupi':
 				// HEY, SOU EU, SIUPITY
-				tex = Paths.getSparrowAtlas('characters/Siupi', 'shared');
+				tex = Paths.getSparrowAtlas('characters/siupi', 'shared');
 				frames = tex;
 				animation.addByPrefix('idle', 'Siupi Idle Dance', 24);
 				animation.addByPrefix('singUP', 'Siupi Note Up', 24);
