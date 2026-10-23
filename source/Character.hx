@@ -144,11 +144,11 @@ class Character extends FlxSprite
 				// HEY, SOU EU, SIUPITY
 				tex = Paths.getSparrowAtlas('characters/Siupi', 'shared');
 				frames = tex;
-				animation.addByPrefix('idle', 'Siupi idle dance', 24);
-				animation.addByPrefix('singUP', 'Siupi Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Siupi Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Siupi Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Siupi Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'Siupi Idle Dance', 24);
+				animation.addByPrefix('singUP', 'Siupi Note Up', 24);
+				animation.addByPrefix('singRIGHT', 'Siupi Note Right', 24);
+				animation.addByPrefix('singDOWN', 'Siupi Note Down', 24);
+				animation.addByPrefix('singLEFT', 'Siupi Note Left', 24);
 
 				addOffset('idle');
 				addOffset("singUP", 10, 19);
